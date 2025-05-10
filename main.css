@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  textarea{
+    flex: 1;
+    width: 100%;
+    height: 92vh;
+    resize: none;
+    margin: 5px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .div-color{
+    display: inline-table;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(250 232 255);
+    border-bottom: 1px solid rgb(155, 65, 125); 
+}
+
+  button{
+    height: 35px;
+    width: 70px;
+    border: none;
+    background-color:transparent;
+    font-family: verdana;
+    font-size: 12px;
+
+}
+
+.save_as{
+  width: 80px;
+}
+
+button:hover{
+    background-color:rgb(155, 65, 125);
+    cursor: pointer;
+    color: white;
+}
+
