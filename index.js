@@ -16,8 +16,8 @@ function createWindow() { // функція для створення вікна
     },
   });
   // прибираємо меню
-  //win.setMenuBarVisibility(false);
-  win.openDevTools();
+  win.setMenuBarVisibility(false);
+  //win.openDevTools();
   // завантажуємо файл index.html
   win.loadFile('index.html'); 
   // встановлюємо змінну для відстеження змін в документі 
